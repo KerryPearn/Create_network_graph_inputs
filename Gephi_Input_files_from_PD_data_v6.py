@@ -683,7 +683,7 @@ if __name__ == '__main__':
     
 #    quit()
     
-    clientID=[1007835,1004961]
+    clientID = [1007835,1004961]
     for cID in clientID:
         subgroup_info={"DATA" : DATA[DATA.ClientID == cID].copy(deep = True), #Deep copy. Changing DATA_SG does not change DATA
                        "COLUMN" : '',
